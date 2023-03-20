@@ -15,6 +15,6 @@ int main(){
     printf("Enter the Number Of Disks: ");
     scanf("%d", &n);
     printf("\n");
-    towerOfHanoi(3, 'A', 'B', 'C');
+    towerOfHanoi(n, 'A', 'B', 'C');
     return 0;
 }
