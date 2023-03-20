@@ -11,7 +11,10 @@ void towerOfHanoi(int n, char from, char to, char aux){
 }
 
 int main(){
-    int n = 3;
+    int n;
+    printf("Enter the Number Of Disks: ");
+    scanf("%d", &n);
+    printf("\n");
     towerOfHanoi(3, 'A', 'B', 'C');
     return 0;
 }
